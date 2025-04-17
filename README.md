@@ -82,4 +82,42 @@ This fun little Python app displays random Kanye West quotes in a stylish UI usi
 
 💡 *Click the button and get inspired... Kanye style!*
 
+# 🚀 ISS Overhead Notifier (Project 3)
+
+A simple Python script that notifies you via email when the **International Space Station (ISS)** is flying above your location **at night**! 🌌✨
+
+---
+
+## 📋 Features
+- Checks if the ISS is currently overhead (+/- 5 degrees of your location).
+- Ensures it's nighttime at your location before sending a notification.
+- Sends you an **email alert** to look up and spot the ISS! 📬👀
+
+---
+
+## 🛠️ Built With
+- Python 🐍
+- [Open Notify API](http://open-notify.org/Open-Notify-API/ISS-Location-Now/)
+- [Sunrise-Sunset API](https://sunrise-sunset.org/api)
+- SMTP (for sending emails)
+
+---
+
+## 🚀 How it Works
+1. Fetches real-time ISS coordinates.
+2. Compares them to your location.
+3. Checks if it’s dark outside.
+4. If both true ➔ sends an email notification!
+
+---
+
+## 📦 Setup
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/your-username/iss-overhead-notifier.git
+   cd iss-overhead-notifier
+
+   ```
+
       
