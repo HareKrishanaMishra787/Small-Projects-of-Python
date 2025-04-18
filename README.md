@@ -119,5 +119,63 @@ A simple Python script that notifies you via email when the **International Spac
    cd iss-overhead-notifier
 
    ```
+# 🌍 Miles to Kilometers Converter(Project 4)
+
+A simple and intuitive GUI application built with Python's Tkinter that converts miles into kilometers with just one click.
+
+---
+
+## 🛠 Features
+
+- 🧮 Converts miles to kilometers accurately.
+- 🪟 Minimal and user-friendly graphical interface.
+- 🖱️ Single-click conversion using a button.
+- 🔄 Real-time input and output display.
+
+---
+
+## 📸 Screenshot
+![miles](https://github.com/user-attachments/assets/dd4d4508-d0cf-45ec-b351-8992e2429f00)
+
+
+
+---
+
+## 🚀 Getting Started
+
+### ✅ Prerequisites
+
+Make sure you have Python installed. You can download it from:
+
+🔗 https://www.python.org/downloads/
+
+### 📦 Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/miles-to-km-converter.git
+cd miles-to-km-converter
+```
+
+# 🎨 Dot Painting Generator(Project 5)
+
+A vibrant, grid-style dot painting made with Python's `turtle` module—perfect for fans of generative art and Damien Hirst-inspired visuals.
+
+---
+
+## 🖼️ Project Overview
+
+This Python project creates a beautiful 10x10 grid of randomly colored dots, inspired by the works of Damien Hirst. It uses a pre-defined color palette and places dots with precise spacing using the `turtle` graphics library.
+
+---
+
+## 🚀 How to Run
+
+1. Make sure you have Python installed.
+2. Install required modules (if not already available):
+   ```bash
+   pip install colorgram.py
+
 
       
