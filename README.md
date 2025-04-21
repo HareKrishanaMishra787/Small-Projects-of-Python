@@ -177,5 +177,58 @@ This Python project creates a beautiful 10x10 grid of randomly colored dots, ins
    ```bash
    pip install colorgram.py
 
+# 📊 Pixela Coding Tracker(Project 6)
+
+Track your daily coding hours in a fun and visual way using [Pixela](https://pixe.la)!  
+This Python script lets you create a user account, build a graph, and update or delete your coding activity easily through Pixela’s API.
+
+## 🚀 Features
+- Create a Pixela user account and graph
+- Add your daily coding hours
+- Update past records
+- Delete any record if needed
+- See your progress visually on your personal Pixela graph!
+
+## 🛠️ Tech Stack
+- Python 3
+- `requests` library
+- Pixela API
+
+## 📋 Setup Instructions
+
+### 1. Clone the repository
+```bash
+git clone <repository-link>
+cd <repository-folder>
+```
+
+### 2. Install dependencies
+```bash
+pip install requests
+```
+
+### 3. Run the script
+```bash
+python main.py
+```
+
+### 4. Follow the prompts
+- Enter how many hours you coded today.
+- Your data will be added to your Pixela graph!
+
+## 🔗 Your Graph Link
+After setup, view your graph here:  
+👉 `https://pixe.la/v1/users/<your-username>/graphs/<your-graph-id>.html`
+
+_(Example: `https://pixe.la/v1/users/krishana/graphs/graph1.html`)_
+
+## 🧹 Future Improvements
+- Add authentication through environment variables for better security
+- Schedule daily reminders to update the graph
+- Build a GUI version
+
+---
+
+Made with ❤️ using Python and Pixela API!
 
       
