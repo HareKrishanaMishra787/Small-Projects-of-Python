@@ -229,6 +229,38 @@ _(Example: `https://pixe.la/v1/users/krishana/graphs/graph1.html`)_
 
 ---
 
+
+# Greeting Card Website - Hare Krishna Mishra(Project 7)
+
+A simple portfolio website built with **Flask** and **HTML/CSS**.
+
+## Project Structure
+- `server.py`: Flask server file
+- `templates/index.html`: Main HTML page
+- `static/`: CSS, JS, and image files
+
+## How to Run
+
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+pip install flask
+python server.py
+```
+Visit `http://127.0.0.1:5000/` in your browser.
+
+## Technologies Used
+- Python Flask
+- HTML5 & CSS3
+- JavaScript
+
+## License
+Open-sourced under the [MIT License](LICENSE).
+
+---
+Created by **Hare Krishna Mishra**
+
+
 Made with ❤️ using Python and Pixela API!
 
       
