@@ -305,6 +305,55 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 
 
+# 📬 Saturday Motivation Mailer(Project 9)
+
+This Python project sends a random motivational quote every **Saturday** to your email inbox to help kick-start the weekend with positivity and inspiration.
+
+## 💡 Features
+
+- 📆 Automatically checks if it's Saturday
+- ✉️ Sends a motivational quote via email using Gmail SMTP
+- 📜 Quotes are randomly picked from a text file (`quotes.txt`)
+
+## 🛠️ How It Works
+
+1. Checks the current day of the week.
+2. If it's Saturday, it reads a random quote from `quotes.txt`.
+3. Sends that quote to your email using Gmail's SMTP server.
+
+## 🧾 Files
+
+- `main.py`: Main Python script that automates the email sending.
+- `quotes.txt`: Collection of motivational quotes.
+
+## 🧪 Prerequisites
+
+- Python 3.x
+- An active Gmail account
+- Enable **"Less secure app access"** or set up an **App Password** for your Gmail account
+
+## 🚀 Usage
+
+```bash
+python main.py
+```
+
+Make sure to update these in `main.py`:
+```python
+my_email = "your_email@gmail.com"
+password = "your_app_password"
+to_addrs = "recipient_email@gmail.com"
+```
+
+## ⚠️ Disclaimer
+
+This script uses plaintext credentials for demo purposes. Use environment variables or a `.env` file for better security in production.
+
+## 📃 License
+
+This project is licensed under the MIT License.
+
+
 Happy coding! 🧑‍💻✨
 
 Created by **Hare Krishna Mishra**
