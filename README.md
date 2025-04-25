@@ -356,6 +356,33 @@ This project is licensed under the MIT License.
 
 Happy coding! 🧑‍💻✨
 
+# 🍅 Pomodoro Timer(Project 10)
+
+A simple and beautiful **Pomodoro Timer** built with Python using Tkinter GUI. This app helps boost productivity by breaking work into intervals — traditionally 25 minutes of focused work followed by short breaks.
+
+![Pomodoro Timer](tomato.png)
+
+## 🕒 Features
+
+- 25-minute work intervals (customizable)
+- 5-minute short breaks
+- 20-minute long break after 4 work sessions
+- Visual check marks to track progress
+- Playful tomato-themed UI 🌿
+
+## 🚀 How to Run
+
+1. Make sure you have **Python 3** installed.
+2. Clone the repo or download the files.
+3. Place the `tomato.png` in the same directory as `main.py`.
+4. Run the app:
+
+```bash
+python main.py
+
+```
+
+
 Created by **Hare Krishna Mishra**
 
 
