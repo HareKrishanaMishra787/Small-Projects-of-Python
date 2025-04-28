@@ -1,4 +1,4 @@
-# Small-Projects-of-Pytho
+# Small-Projects-of-Python
 # 🎯 Flask Number Guessing Game(Project 1)
 
 Welcome to the **Flask Number Guessing Game** – a fun and interactive web app built with Python and Flask! Guess a number between **0 and 9**, and let the server tell you if you're right — with fun visuals!
